@@ -2,9 +2,9 @@
  ReaScript Name:Render Blocks
  MetaPackage: true
  Author: LKC
- REAPER: 5+
+ REAPER: 6+
  Extensions: SWS
- Version: 1.0
+ Version: 1.0.1
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -42,14 +42,29 @@
   Data/x86/lkc_renderblocks_controller.dll
   Data/ini_file_reader.dat
   Data/save_table.dat
-  EULA.txt
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
  About:
-  Set  of special scripts that will allow you to organize, render and export audio files for games quickly.
+  # LKC RENDER BLOCKS
+
+  ## One click export solution
+
+  Set  of special scripts that will allow you to organize, name and export audio files quickly and easily.
+
+  ### Webpage:
+
+  https://www.lkctools.com/renderblocks
+
+  ### Quick Start Guide:
+
+  http://premium.lkc.tools/rblocks_help.php
 ]]
 
 --[[
  * Changelog:
+  * v1.0.1 (2021-01-14)
+   + updated ReaPack repo description
+   + eula is now online only
+   + fixed bug with 'trim content behind media items' option when packing blocks
  * v1.0 (2020-12-25)
 	+ Package created
 ]]
