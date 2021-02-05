@@ -4,13 +4,14 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.0.1
+ Version: 1.0.2
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
   [Main] LKC - RenderBlocks - Settings.lua
   [Main] LKC - RenderBlocks - Render.lua
   [Main] LKC - RenderBlocks - Enter name.lua
+  [Main] LKC - RenderBlocks - Enter name (no prefix).lua
   [Main] LKC - RenderBlocks - Enter metatag.lua
   [Main] LKC - RenderBlocks - Restore colors.lua
   Data/Lokasenna_GUI/Class - Button.dat
@@ -61,6 +62,8 @@
 
 --[[
  * Changelog:
+  * v1.0.2 (2021-02-05)
+   + Added 'Enter name (no prefix)' script to allow LKC Naming editor to be used for regular item naming
   * v1.0.1 (2021-01-14)
    + updated ReaPack repo description
    + eula is now online only
