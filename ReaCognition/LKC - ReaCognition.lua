@@ -5,6 +5,9 @@
  REAPER: 6+
  Extensions: SWS
  Version: 0.10
+ Provides:
+  json_lua/json.lua
+  json_lua/LICENSE
  About:
   # ReaCognition BETA
 
