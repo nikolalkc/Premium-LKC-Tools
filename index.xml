@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Premium LKC Tools" commit="488978bc3c4723f39ab7e020627c14a283e835d8">
+<index version="1" name="Premium LKC Tools" commit="93f4e7996e650b63b5a4c7088faeb49c1c3f246a">
+  <category name="ReaCognition">
+    <reapack name="LKC - ReaCognition.lua" type="script" desc="ReaCognition BETA">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaCognition BETA\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Set of special scripts that will allow you to recognize text of voice over files.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 More Info\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 https://blog.audiokinetic.com/how-we-used-ai-to-improve-dialogue-management-for-pagan-online/\par}
+}
+]]></description>
+      </metadata>
+      <version name="0.10" author="LKC" time="2021-02-26T18:53:24Z">
+        <source file="json_lua/json.lua">http://premium.lkc.tools/index.php?commit=93f4e7996e650b63b5a4c7088faeb49c1c3f246a&amp;file=ReaCognition/json_lua/json.lua</source>
+        <source file="json_lua/LICENSE">http://premium.lkc.tools/index.php?commit=93f4e7996e650b63b5a4c7088faeb49c1c3f246a&amp;file=ReaCognition/json_lua/LICENSE</source>
+      </version>
+    </reapack>
+  </category>
   <category name="RenderBlocks">
     <reapack name="LKC - RenderBlocks.lua" type="script" desc="Render Blocks">
       <metadata>
