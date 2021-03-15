@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.0.2
+ Version: 1.1
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -14,6 +14,7 @@
   [Main] LKC - RenderBlocks - Enter name (no prefix).lua
   [Main] LKC - RenderBlocks - Enter metatag.lua
   [Main] LKC - RenderBlocks - Restore colors.lua
+  [Main] LKC - RenderBlocks - Pack clusters.lua
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Options.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -25,6 +26,8 @@
   Data/Lokasenna_GUI/Class - Listbox2.dat
   Data/Lokasenna_GUI/Class - Tabs.dat
   Data/Lokasenna_GUI/Core.dat
+  Data/x64/lkc_renderblocks_pack_clusters.dll
+  Data/x64/lkc_renderblocks_restore_colors.dll
   Data/x64/lkc_renderblocks_destroy.dll
   Data/x64/lkc_renderblocks_pack_unpack.dll
   Data/x64/lkc_renderblocks_name_editor.dll
@@ -33,6 +36,8 @@
   Data/x64/lkc_renderblocks_render.dat
   Data/x64/lkc_renderblocks_region_class.dll
   Data/x64/lkc_renderblocks_controller.dll
+  Data/x86/lkc_renderblocks_pack_clusters.dll
+  Data/x86/lkc_renderblocks_restore_colors.dll
   Data/x86/lkc_renderblocks_destroy.dll
   Data/x86/lkc_renderblocks_pack_unpack.dll
   Data/x86/lkc_renderblocks_name_editor.dll
@@ -62,12 +67,16 @@
 
 --[[
  * Changelog:
+  * v1.1 (2021-03-15)
+    + Added action to pack multiple item clusters at the same time (Pack Clusters.lua)
+    + Added $rblock wildcard for render settings window
+    + Added option to disable rblock coloring when packing
   * v1.0.2 (2021-02-05)
-   + Added 'Enter name (no prefix)' script to allow LKC Naming editor to be used for regular item naming
+    + Added 'Enter name (no prefix)' script to allow LKC Naming editor to be used for regular item naming
   * v1.0.1 (2021-01-14)
-   + updated ReaPack repo description
-   + eula is now online only
-   + fixed bug with 'trim content behind media items' option when packing blocks
+    + updated ReaPack repo description
+    + eula is now online only
+    + fixed bug with 'trim content behind media items' option when packing blocks
  * v1.0 (2020-12-25)
 	+ Package created
 ]]
