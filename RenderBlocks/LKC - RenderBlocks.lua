@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.1
+ Version: 1.2
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -15,6 +15,9 @@
   [Main] LKC - RenderBlocks - Enter metatag.lua
   [Main] LKC - RenderBlocks - Restore colors.lua
   [Main] LKC - RenderBlocks - Pack clusters.lua
+  [Main] LKC - RenderBlocks - Default item colors.lua
+  [Main] LKC - RenderBlocks - Toggle labels and item icons.lua
+  [Main] LKC - RenderBlocks - Pack clusters and Enter name.lua
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Options.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -56,6 +59,10 @@
 
   Set  of special scripts that will allow you to organize, name and export audio files quickly and easily.
 
+  ### GETTING STARTED VIDEO
+
+  https://www.youtube.com/watch?v=UKqOxV1ysY4
+
   ### Webpage:
 
   https://www.lkctools.com/renderblocks
@@ -67,6 +74,10 @@
 
 --[[
  * Changelog:
+  * v1.2 (2021-04-05)
+    + Added 'Pack clusters and Enter name' script
+    + Added 'Toggle lables and item icons' script
+    + Added 'Default item colors' script
   * v1.1 (2021-03-15)
     + Added action to pack multiple item clusters at the same time (Pack Clusters.lua)
     + Added $rblock wildcard for render settings window
