@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.2
+ Version: 1.2.1
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -74,6 +74,8 @@
 
 --[[
  * Changelog:
+  * v1.2.1 (2021-05-14)
+    + Added backend support for zero based indexing (experimental)
   * v1.2 (2021-04-05)
     + Added 'Pack clusters and Enter name' script
     + Added 'Toggle lables and item icons' script
