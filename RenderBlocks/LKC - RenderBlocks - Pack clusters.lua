@@ -19,7 +19,7 @@ if sws then
     if platform == "Win32" or platform == "OSX32" then bin="x86" end
 
 
-
+    --USER SETTINGS
     --[[
         Cluster Varaint 1: Label items are excluded from calculation
             Pros: Blocks can be directly on top of each other
@@ -30,7 +30,7 @@ if sws then
             Cons: Blocks cannot be layered on top of each other
     ]]
     cluster_variant = 1
-
+    create_regions = 0
 
     wrap_unwrap_dll = script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_pack_unpack.dll]]
     dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_pack_clusters.dll]])

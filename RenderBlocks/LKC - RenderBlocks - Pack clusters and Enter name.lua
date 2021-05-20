@@ -19,7 +19,7 @@ if sws then
     if platform == "Win32" or platform == "OSX32" then bin="x86" end
 
 
-
+    --USER SETTINGS
     --[[
         Cluster Varaint 1: Label items are excluded from calculation
             Pros: Blocks can be directly on top of each other
