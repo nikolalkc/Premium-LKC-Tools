@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.2.2
+ Version: 1.3
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -74,6 +74,13 @@
 
 --[[
  * Changelog:
+  * v1.3 (2021-07-09)
+    + Added support for Content Navigator (premium) - separate package
+    + Added AutoNaming support (premium)
+    + Added Channel metatags support (premium)
+    + Added Reimport feature (premium)
+    + Vastly optimized render process
+    + Added experimental support for TAIL rendering
   * v1.2.2 (2021-05-20)
     + Added backend for optional region creation on packing and/or naming (experimental)
   * v1.2.1 (2021-05-14)
