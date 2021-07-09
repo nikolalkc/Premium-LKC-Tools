@@ -18,6 +18,8 @@
   [Main] LKC - RenderBlocks - Default item colors.lua
   [Main] LKC - RenderBlocks - Toggle labels and item icons.lua
   [Main] LKC - RenderBlocks - Pack clusters and Enter name.lua
+  [Main] LKC - RenderBlocks - AutoName settings.lua
+  [Main] LKC - RenderBlocks - AutoName.lua
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Options.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -29,8 +31,6 @@
   Data/Lokasenna_GUI/Class - Listbox2.dat
   Data/Lokasenna_GUI/Class - Tabs.dat
   Data/Lokasenna_GUI/Core.dat
-  Data/x64/lkc_renderblocks_pack_clusters.dll
-  Data/x64/lkc_renderblocks_restore_colors.dll
   Data/x64/lkc_renderblocks_destroy.dll
   Data/x64/lkc_renderblocks_pack_unpack.dll
   Data/x64/lkc_renderblocks_name_editor.dll
@@ -39,8 +39,10 @@
   Data/x64/lkc_renderblocks_render.dat
   Data/x64/lkc_renderblocks_region_class.dll
   Data/x64/lkc_renderblocks_controller.dll
-  Data/x86/lkc_renderblocks_pack_clusters.dll
-  Data/x86/lkc_renderblocks_restore_colors.dll
+  Data/x64/lkc_renderblocks_pack_clusters.dll
+  Data/x64/lkc_renderblocks_restore_colors.dll
+  Data/x64/lkc_renderblocks_autonaming.dll
+  Data/x64/lkc_renderblocks_autonaming_settings.dll
   Data/x86/lkc_renderblocks_destroy.dll
   Data/x86/lkc_renderblocks_pack_unpack.dll
   Data/x86/lkc_renderblocks_name_editor.dll
@@ -49,6 +51,10 @@
   Data/x86/lkc_renderblocks_render.dat
   Data/x86/lkc_renderblocks_region_class.dll
   Data/x86/lkc_renderblocks_controller.dll
+  Data/x86/lkc_renderblocks_pack_clusters.dll
+  Data/x86/lkc_renderblocks_restore_colors.dll
+  Data/x86/lkc_renderblocks_autonaming.dll
+  Data/x86/lkc_renderblocks_autonaming_settings.dll
   Data/ini_file_reader.dat
   Data/save_table.dat
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
