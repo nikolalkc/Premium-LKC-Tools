@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Premium LKC Tools" commit="ce231f5aea47bedb14bd8262192db42c1d3dbaae">
+<index version="1" name="Premium LKC Tools" commit="164cf0e2c79938aacfbb15f72af7b04d1ac52a3c">
+  <category name="ContentNavigator">
+    <reapack name="LKC - RenderBlocks - Content Navigator.lua" type="script" desc="Render Blocks - Content Navigator">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 LKC CONTENT NAVIGATOR\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Part of LKC Render Blocks package\par}
+}
+]]></description>
+      </metadata>
+      <version name="0.6" author="LKC" time="2021-07-09T12:02:39Z">
+        <changelog><![CDATA[+ Small changes and fixes]]></changelog>
+        <source main="main">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/LKC%20-%20RenderBlocks%20-%20Content%20Navigator.lua</source>
+        <source file="Data/Lokasenna_GUI/Class - Button.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Button.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Listbox2.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Listbox2.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Options.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Options.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Tabs.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Tabs.dat</source>
+        <source file="Data/Lokasenna_GUI/Core.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/Lokasenna_GUI/Core.dat</source>
+        <source file="Data/x64/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x64/lkc_renderblocks_controller.dll">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_controller.dll</source>
+        <source file="Data/x64/lkc_renderblocks_render.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_render.dat</source>
+        <source file="Data/x86/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x86/lkc_renderblocks_controller.dll">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_controller.dll</source>
+        <source file="Data/x86/lkc_renderblocks_render.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_render.dat</source>
+        <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=164cf0e2c79938aacfbb15f72af7b04d1ac52a3c&amp;file=ContentNavigator/Data/save_table.dat</source>
+      </version>
+    </reapack>
+  </category>
   <category name="ReaCognition">
     <reapack name="LKC - ReaCognition.lua" type="script" desc="ReaCognition BETA">
       <metadata>
