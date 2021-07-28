@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.3.1pre1
+ Version: 1.3.1
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -80,6 +80,8 @@
 
 --[[
  * Changelog:
+  * v1.3.1 (2021-07-28)
+    + Added slash and backslash support for AutoNaming (release)
   * v1.3.1pre1 (2021-07-18)
     + Added slash and backslash support for AutoNaming
   * v1.3 (2021-07-09)
