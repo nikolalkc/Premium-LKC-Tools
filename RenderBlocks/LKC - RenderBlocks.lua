@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.3.2beta
+ Version: 1.4
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -80,6 +80,17 @@
 
 --[[
  * Changelog:
+  * v1.4 (2021-11-25)
+    + Added support for 'tail' metatag
+    + Added support for 'ftail' metatag (faded tail)
+    + Added support for 'loudness' metatag
+    + Added support for 'limit' metatag
+    + Added support for 'ch' metatag (! is deprecated, but backwards compatible)
+    + Added support for any number of channels for 'ch' metatag (ch=1, ch=3 ,ch=7, ch=8 ...)
+    + Improved formatting of metatags when using naming editor
+    + Improved handling of stats window when normalization enabled
+    + Tail setting in render options are now always considered
+    + Fixed issue with deleting automation items when block destroyed
   * v1.3.2beta (2021-11-05)
     + Tail is now always considered when rendering
   * v1.3.1 (2021-07-28)
