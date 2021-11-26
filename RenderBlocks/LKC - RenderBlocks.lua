@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.4
+ Version: 1.4.1
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -80,6 +80,8 @@
 
 --[[
  * Changelog:
+  * v1.4.1 (2021-11-25)
+    + Optimized render checking
   * v1.4 (2021-11-25)
     + Added support for 'tail' metatag
     + Added support for 'ftail' metatag (faded tail)
