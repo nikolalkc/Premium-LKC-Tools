@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 0.6
+ Version: 0.7beta
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -16,14 +16,25 @@
   Data/x86/lkc_renderblocks_content_navigator.dll
   Data/x86/lkc_renderblocks_controller.dll
   Data/x86/lkc_renderblocks_render.dat
+  Data/x64/lkc_cnav_controller.dll
+  Data/x86/lkc_cnav_controller.dll
+  Data/x64/lkc_cnav_render.dat
+  Data/x86/lkc_cnav_render.dat
   Data/save_table.dat
  About:
   # LKC CONTENT NAVIGATOR
   
-  ## Part of LKC Render Blocks package
+  ## Seamless and powerful project navigation, folder handling and track solo/mute tool.
 
 --[[
  * Changelog:
+* v0.7beta (2022-01-11)
+	+ Standalone license support
+    + Added support for multi selection (using CTRL/SHIFT + Click)
+    + Added support for jump modifier (using ALT + Click)
+    + Added support for quick expand (using ALT + Right Click)
+    + Added support for quick collapse (using ALT + SHIFT + Right Click)
+    + Added support for FREE version (up to 3 depth levels and 20 list items)
 * v0.6 (2020-07-09)
 	+ Small changes and fixes
 * v0.5 (2020-06-27)

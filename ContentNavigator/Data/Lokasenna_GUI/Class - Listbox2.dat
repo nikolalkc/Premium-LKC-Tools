@@ -183,8 +183,8 @@ function GUI.Listbox:onmouseup()
 
 				self.retval[item] = not self.retval[item]
 
-			-- Shift
-			elseif GUI.mouse.cap & 8 == 8 then
+			-- Shift, but not while ALT is pressed as well, ALT+SHIFT is for collapse folder
+			elseif GUI.mouse.cap & 8 == 8 and GUI.mouse.cap & 16 == 0 then
 
 				self:selectrange(item)
 
