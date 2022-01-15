@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 0.7beta
+ Version: 1.0
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -21,6 +21,7 @@
   Data/x64/lkc_cnav_render.dat
   Data/x86/lkc_cnav_render.dat
   Data/save_table.dat
+  [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
  About:
   # LKC CONTENT NAVIGATOR
   
@@ -28,26 +29,33 @@
 
 --[[
  * Changelog:
-* v0.7beta (2022-01-11)
-	+ Standalone license support
-    + Added support for multi selection (using CTRL/SHIFT + Click)
-    + Added support for jump modifier (using ALT + Click)
-    + Added support for quick expand (using ALT + Right Click)
-    + Added support for quick collapse (using ALT + SHIFT + Right Click)
-    + Added support for FREE version (up to 3 depth levels and 20 list items)
-* v0.6 (2020-07-09)
-	+ Small changes and fixes
-* v0.5 (2020-06-27)
-	+ Added support for vertical zoom
-* v0.4 (2020-06-25)
-	+ Selection options
-    + Renamed some option labels for more clarity
-* v0.3 (2020-06-21)
-	+ (Un)Docking buton
-* v0.2 (2020-05-24)
-	+ A lot of improvements
-* v0.1 (2020-05-24)
-	+ Package created
+    * v1.0 (2022-01-15)
+        + Fixed right click jumping behaviour
+        + Added toolbar icon: LKC - Content Navigator.png
+    * v0.8beta (2022-01-12)
+        + Fixed expanding and collapsing when no selection
+        + Fixed deselection issues
+        + Fixed various unwanted ALT + Right Click results
+    * v0.7beta (2022-01-11)
+        + Standalone license support
+        + Added support for multi selection (using CTRL/SHIFT + Click)
+        + Added support for jump modifier (using ALT + Click)
+        + Added support for quick expand (using ALT + Right Click)
+        + Added support for quick collapse (using ALT + SHIFT + Right Click)
+        + Added support for FREE version (up to 3 depth levels and 20 list items)
+    * v0.6 (2020-07-09)
+        + Small changes and fixes
+    * v0.5 (2020-06-27)
+        + Added support for vertical zoom
+    * v0.4 (2020-06-25)
+        + Selection options
+        + Renamed some option labels for more clarity
+    * v0.3 (2020-06-21)
+        + (Un)Docking buton
+    * v0.2 (2020-05-24)
+        + A lot of improvements
+    * v0.1 (2020-05-24)
+        + Package created
 ]]
 
 
