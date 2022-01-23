@@ -3,12 +3,13 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.0
+ Version: 1.01
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
   Data/Lokasenna_GUI/Class - Options.dat
   Data/Lokasenna_GUI/Class - Tabs.dat
+  Data/Lokasenna_GUI/Class - Textbox.dat
   Data/Lokasenna_GUI/Core.dat
   Data/x64/lkc_renderblocks_content_navigator.dll
   Data/x64/lkc_renderblocks_controller.dll
@@ -29,6 +30,12 @@
 
 --[[
  * Changelog:
+    * v1.01 (2022-01-23)
+        + Added search box (premium feature) with multi term support (comma is a term separator)
+        + Added support for always hidden tracks (any track with ## in its name)
+        + Added support to rename tracks from Content Navigator (ALT + Double Click)
+        + Added 'Solo' in Navigation Options
+        + Improved stability of the tool (added crash safety)
     * v1.0 (2022-01-15)
         + Fixed right click jumping behaviour
         + Added toolbar icon: LKC - Content Navigator.png
