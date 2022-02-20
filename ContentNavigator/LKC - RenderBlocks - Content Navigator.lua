@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.01
+ Version: 1.02
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -30,6 +30,8 @@
 
 --[[
  * Changelog:
+    * v1.02 (2022-02-20)
+        + Fixed issue in search box with special characters like (^$()%.[]*+-?)
     * v1.01 (2022-01-23)
         + Added search box (premium feature) with multi term support (comma is a term separator)
         + Added support for always hidden tracks (any track with ## in its name)
