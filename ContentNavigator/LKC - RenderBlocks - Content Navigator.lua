@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.02
+ Version: 1.03beta
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -30,6 +30,8 @@
 
 --[[
  * Changelog:
+    * v1.03beta (2022-04-19)
+        + Fixed issue with folder selection when using CTRL+Left Click or SHIFT+Left Click
     * v1.02 (2022-02-20)
         + Fixed issue in search box with special characters like (^$()%.[]*+-?)
     * v1.01 (2022-01-23)
