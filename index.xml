@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Premium LKC Tools" commit="8277b10292279fe7f7cdef64697016138fd386cc">
+<index version="1" name="Premium LKC Tools" commit="9e97664f0fbc422618046af06587d6ae0db1b399">
   <category name="ContentNavigator">
     <reapack name="LKC - RenderBlocks - Content Navigator.lua" type="script" desc="Render Blocks - Content Navigator">
       <metadata>
@@ -148,6 +148,32 @@
         <source file="Data/x86/lkc_cnav_render.dat">http://premium.lkc.tools/index.php?commit=8277b10292279fe7f7cdef64697016138fd386cc&amp;file=ContentNavigator/Data/x86/lkc_cnav_render.dat</source>
         <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=8277b10292279fe7f7cdef64697016138fd386cc&amp;file=ContentNavigator/Data/save_table.dat</source>
         <source type="data" file="toolbar_icons/LKC - Content Navigator.png">http://premium.lkc.tools/index.php?commit=8277b10292279fe7f7cdef64697016138fd386cc&amp;file=ContentNavigator/LKC%20-%20Content%20Navigator.png</source>
+      </version>
+      <version name="1.03" author="LKC" time="2022-05-23T12:19:50Z">
+        <changelog><![CDATA[+ Improved anti-crash security for multi-selection
++ Added support for coloring tracks using third-party scripts like ReaNoir or Colour Swatch
++ License management improvement
+* v1.03beta (2022-04-19)
++ Fixed issue with folder selection when using CTRL+Left Click or SHIFT+Left Click]]></changelog>
+        <source main="main">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/LKC%20-%20RenderBlocks%20-%20Content%20Navigator.lua</source>
+        <source file="Data/Lokasenna_GUI/Class - Button.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Button.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Listbox2.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Listbox2.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Options.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Options.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Tabs.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Tabs.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Textbox.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Textbox.dat</source>
+        <source file="Data/Lokasenna_GUI/Core.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/Lokasenna_GUI/Core.dat</source>
+        <source file="Data/x64/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x64/lkc_renderblocks_controller.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_controller.dll</source>
+        <source file="Data/x64/lkc_renderblocks_render.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_render.dat</source>
+        <source file="Data/x86/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x86/lkc_renderblocks_controller.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_controller.dll</source>
+        <source file="Data/x86/lkc_renderblocks_render.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_render.dat</source>
+        <source file="Data/x64/lkc_cnav_controller.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x64/lkc_cnav_controller.dll</source>
+        <source file="Data/x86/lkc_cnav_controller.dll">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x86/lkc_cnav_controller.dll</source>
+        <source file="Data/x64/lkc_cnav_render.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x64/lkc_cnav_render.dat</source>
+        <source file="Data/x86/lkc_cnav_render.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/x86/lkc_cnav_render.dat</source>
+        <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/save_table.dat</source>
+        <source type="data" file="toolbar_icons/LKC - Content Navigator.png">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/LKC%20-%20Content%20Navigator.png</source>
       </version>
     </reapack>
   </category>
