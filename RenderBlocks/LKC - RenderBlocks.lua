@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS
- Version: 1.4.2
+ Version: 1.4.3
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -80,6 +80,8 @@
 
 --[[
  * Changelog:
+  * v1.4.3 (2022-05-23)
+    + License management improvement
   * v1.4.2 (2022-01-12)
     + Support for rendering empty single items through folder track
     + Support for single items metatags
