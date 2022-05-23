@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.03beta
+ Version: 1.03
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -30,6 +30,10 @@
 
 --[[
  * Changelog:
+    * v1.03 (2022-05-23)
+        + Improved anti-crash security for multi-selection
+        + Added support for coloring tracks using third-party scripts like ReaNoir or Colour Swatch
+        + License management improvement
     * v1.03beta (2022-04-19)
         + Fixed issue with folder selection when using CTRL+Left Click or SHIFT+Left Click
     * v1.02 (2022-02-20)
