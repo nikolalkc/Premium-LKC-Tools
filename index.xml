@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Premium LKC Tools" commit="4ce67c3a979ae0838df0b831651303402f3fbaa7">
+<index version="1" name="Premium LKC Tools" commit="d18eb4eebc757cd8b1b2a172a389d6ca2075bee6">
   <category name="ContentNavigator">
     <reapack name="LKC - RenderBlocks - Content Navigator.lua" type="script" desc="Render Blocks - Content Navigator">
       <metadata>
@@ -175,6 +175,30 @@
         <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/Data/save_table.dat</source>
         <source type="data" file="toolbar_icons/LKC - Content Navigator.png">http://premium.lkc.tools/index.php?commit=9e97664f0fbc422618046af06587d6ae0db1b399&amp;file=ContentNavigator/LKC%20-%20Content%20Navigator.png</source>
       </version>
+      <version name="1.04" author="LKC" time="2022-08-06T23:56:06Z">
+        <changelog><![CDATA[+ Fixed multi-unselection bug
++ Refactored license management system
++ Improved license key parsing]]></changelog>
+        <source main="main">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/LKC%20-%20RenderBlocks%20-%20Content%20Navigator.lua</source>
+        <source file="Data/Lokasenna_GUI/Class - Button.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Button.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Listbox2.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Listbox2.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Options.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Options.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Tabs.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Tabs.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Textbox.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Class%20-%20Textbox.dat</source>
+        <source file="Data/Lokasenna_GUI/Core.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/Lokasenna_GUI/Core.dat</source>
+        <source file="Data/x64/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x64/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x64/lkc_render_controller.dll">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x64/lkc_render_controller.dll</source>
+        <source file="Data/x64/lkc_render1.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x64/lkc_render1.dat</source>
+        <source file="Data/x64/lkc_render2.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x64/lkc_render2.dat</source>
+        <source file="Data/x64/lkc_render3.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x64/lkc_render3.dat</source>
+        <source file="Data/x86/lkc_renderblocks_content_navigator.dll">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x86/lkc_renderblocks_content_navigator.dll</source>
+        <source file="Data/x86/lkc_render_controller.dll">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x86/lkc_render_controller.dll</source>
+        <source file="Data/x86/lkc_render1.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x86/lkc_render1.dat</source>
+        <source file="Data/x86/lkc_render2.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x86/lkc_render2.dat</source>
+        <source file="Data/x86/lkc_render3.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/x86/lkc_render3.dat</source>
+        <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/Data/save_table.dat</source>
+        <source type="data" file="toolbar_icons/LKC - Content Navigator.png">http://premium.lkc.tools/index.php?commit=b5530618e268df83744826c53bd54aa1aacc3053&amp;file=ContentNavigator/LKC%20-%20Content%20Navigator.png</source>
+      </version>
     </reapack>
   </category>
   <category name="ReaCognition">
@@ -221,9 +245,8 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 LKC RENDER BLOCKS\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 One click export solution\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Now with Content Navigator and AutoNaming\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Set of special scripts that will allow you to organize, name and export audio files quickly and easily.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 GETTING STARTED VIDEO\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 https://www.youtube.com/watch?v=UKqOxV1ysY4\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Webpage:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 https://www.lkctools.com/renderblocks\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Quick Start Guide:\par}
@@ -1003,6 +1026,69 @@
         <source file="Data/ini_file_reader.dat">http://premium.lkc.tools/index.php?commit=4ce67c3a979ae0838df0b831651303402f3fbaa7&amp;file=RenderBlocks/Data/ini_file_reader.dat</source>
         <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=4ce67c3a979ae0838df0b831651303402f3fbaa7&amp;file=RenderBlocks/Data/save_table.dat</source>
         <source type="data" file="toolbar_icons/LKC - RenderBlocks.png">http://premium.lkc.tools/index.php?commit=4ce67c3a979ae0838df0b831651303402f3fbaa7&amp;file=RenderBlocks/LKC%20-%20RenderBlocks.png</source>
+      </version>
+      <version name="1.4.4" author="LKC" time="2022-08-06T23:56:23Z">
+        <changelog><![CDATA[+ Fixed issue of incorrect coloring of items to white after rendering
++ Fixed issue of automation items being deleted when unpacking blocks 
++ Added basic autonaming support for nvk folder items
++ Refactored license management system
++ Improved license key parsing]]></changelog>
+        <source main="main" file="LKC - RenderBlocks - Pack or Unpack.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Pack%20or%20Unpack.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Destroy.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Destroy.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Settings.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Settings.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Render.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Render.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Enter name.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Enter%20name.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Enter name (no prefix).lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Enter%20name%20(no%20prefix).lua</source>
+        <source main="main" file="LKC - RenderBlocks - Enter metatag.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Enter%20metatag.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Restore colors.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Restore%20colors.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Pack clusters.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Pack%20clusters.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Default item colors.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Default%20item%20colors.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Toggle labels and item icons.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Toggle%20labels%20and%20item%20icons.lua</source>
+        <source main="main" file="LKC - RenderBlocks - Pack clusters and Enter name.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20Pack%20clusters%20and%20Enter%20name.lua</source>
+        <source main="main" file="LKC - RenderBlocks - AutoName settings.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20AutoName%20settings.lua</source>
+        <source main="main" file="LKC - RenderBlocks - AutoName.lua">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks%20-%20AutoName.lua</source>
+        <source file="Data/Lokasenna_GUI/Class - Button.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Button.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Options.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Options.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Label.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Label.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - TextEditor.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20TextEditor.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - TextEditor2.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20TextEditor2.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Textbox.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Textbox.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Window.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Window.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Listbox.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Listbox.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Listbox2.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Listbox2.dat</source>
+        <source file="Data/Lokasenna_GUI/Class - Tabs.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Class%20-%20Tabs.dat</source>
+        <source file="Data/Lokasenna_GUI/Core.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/Lokasenna_GUI/Core.dat</source>
+        <source file="Data/x64/lkc_renderblocks_destroy.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_destroy.dll</source>
+        <source file="Data/x64/lkc_renderblocks_pack_unpack.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_pack_unpack.dll</source>
+        <source file="Data/x64/lkc_renderblocks_name_editor.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_name_editor.dll</source>
+        <source file="Data/x64/lkc_renderblocks_render.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_render.dll</source>
+        <source file="Data/x64/lkc_renderblocks_settings_gui.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_settings_gui.dll</source>
+        <source file="Data/x64/lkc_render1.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_render1.dat</source>
+        <source file="Data/x64/lkc_render2.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_render2.dat</source>
+        <source file="Data/x64/lkc_render3.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_render3.dat</source>
+        <source file="Data/x64/lkc_renderblocks_region_class.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_region_class.dll</source>
+        <source file="Data/x64/lkc_render_controller.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_render_controller.dll</source>
+        <source file="Data/x64/lkc_renderblocks_pack_clusters.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_pack_clusters.dll</source>
+        <source file="Data/x64/lkc_renderblocks_restore_colors.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_restore_colors.dll</source>
+        <source file="Data/x64/lkc_renderblocks_autonaming.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_autonaming.dll</source>
+        <source file="Data/x64/lkc_renderblocks_autonaming_settings.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x64/lkc_renderblocks_autonaming_settings.dll</source>
+        <source file="Data/x86/lkc_renderblocks_destroy.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_destroy.dll</source>
+        <source file="Data/x86/lkc_renderblocks_pack_unpack.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_pack_unpack.dll</source>
+        <source file="Data/x86/lkc_renderblocks_name_editor.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_name_editor.dll</source>
+        <source file="Data/x86/lkc_renderblocks_render.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_render.dll</source>
+        <source file="Data/x86/lkc_renderblocks_settings_gui.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_settings_gui.dll</source>
+        <source file="Data/x86/lkc_render1.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_render1.dat</source>
+        <source file="Data/x86/lkc_render2.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_render2.dat</source>
+        <source file="Data/x86/lkc_render3.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_render3.dat</source>
+        <source file="Data/x86/lkc_renderblocks_region_class.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_region_class.dll</source>
+        <source file="Data/x86/lkc_render_controller.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_render_controller.dll</source>
+        <source file="Data/x86/lkc_renderblocks_pack_clusters.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_pack_clusters.dll</source>
+        <source file="Data/x86/lkc_renderblocks_restore_colors.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_restore_colors.dll</source>
+        <source file="Data/x86/lkc_renderblocks_autonaming.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_autonaming.dll</source>
+        <source file="Data/x86/lkc_renderblocks_autonaming_settings.dll">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/x86/lkc_renderblocks_autonaming_settings.dll</source>
+        <source file="Data/ini_file_reader.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/ini_file_reader.dat</source>
+        <source file="Data/save_table.dat">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/Data/save_table.dat</source>
+        <source type="data" file="toolbar_icons/LKC - RenderBlocks.png">http://premium.lkc.tools/index.php?commit=d18eb4eebc757cd8b1b2a172a389d6ca2075bee6&amp;file=RenderBlocks/LKC%20-%20RenderBlocks.png</source>
       </version>
     </reapack>
   </category>
