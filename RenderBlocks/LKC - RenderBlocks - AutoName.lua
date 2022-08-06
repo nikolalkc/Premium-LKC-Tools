@@ -18,6 +18,7 @@ if sws then
 
     local info = debug.getinfo(1,'S');
     script_path = info.source:match[[^@?(.*[\/])[^\/]-$]]
+    GENERATE_JUST_NAME_STRING = true
     dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_autonaming.dll]])
     reaper.Undo_EndBlock("LKC - RenderBlocks - AutoName", -1)
 else

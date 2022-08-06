@@ -2,9 +2,9 @@
  ReaScript Name:Render Blocks
  MetaPackage: true
  Author: LKC
- REAPER: 6+
+ REAPER: 5+
  Extensions: SWS
- Version: 1.4.3
+ Version: 1.4.4
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -36,9 +36,11 @@
   Data/x64/lkc_renderblocks_name_editor.dll
   Data/x64/lkc_renderblocks_render.dll
   Data/x64/lkc_renderblocks_settings_gui.dll
-  Data/x64/lkc_renderblocks_render.dat
+  Data/x64/lkc_render1.dat
+  Data/x64/lkc_render2.dat
+  Data/x64/lkc_render3.dat
   Data/x64/lkc_renderblocks_region_class.dll
-  Data/x64/lkc_renderblocks_controller.dll
+  Data/x64/lkc_render_controller.dll
   Data/x64/lkc_renderblocks_pack_clusters.dll
   Data/x64/lkc_renderblocks_restore_colors.dll
   Data/x64/lkc_renderblocks_autonaming.dll
@@ -48,9 +50,11 @@
   Data/x86/lkc_renderblocks_name_editor.dll
   Data/x86/lkc_renderblocks_render.dll
   Data/x86/lkc_renderblocks_settings_gui.dll
-  Data/x86/lkc_renderblocks_render.dat
+  Data/x86/lkc_render1.dat
+  Data/x86/lkc_render2.dat
+  Data/x86/lkc_render3.dat
   Data/x86/lkc_renderblocks_region_class.dll
-  Data/x86/lkc_renderblocks_controller.dll
+  Data/x86/lkc_render_controller.dll
   Data/x86/lkc_renderblocks_pack_clusters.dll
   Data/x86/lkc_renderblocks_restore_colors.dll
   Data/x86/lkc_renderblocks_autonaming.dll
@@ -63,11 +67,9 @@
 
   ## One click export solution
 
+  ### Now with Content Navigator and AutoNaming
+
   Set  of special scripts that will allow you to organize, name and export audio files quickly and easily.
-
-  ### GETTING STARTED VIDEO
-
-  https://www.youtube.com/watch?v=UKqOxV1ysY4
 
   ### Webpage:
 
@@ -80,6 +82,12 @@
 
 --[[
  * Changelog:
+  * v1.4.4 (2022-08-07)
+    + Fixed issue of incorrect coloring of items to white after rendering
+    + Fixed issue of automation items being deleted when unpacking blocks 
+    + Added basic autonaming support for nvk folder items
+    + Refactored license management system
+    + Improved license key parsing
   * v1.4.3 (2022-05-23)
     + License management improvement
   * v1.4.2 (2022-01-12)
