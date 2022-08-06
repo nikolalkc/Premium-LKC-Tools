@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.03
+ Version: 1.04
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
@@ -12,15 +12,15 @@
   Data/Lokasenna_GUI/Class - Textbox.dat
   Data/Lokasenna_GUI/Core.dat
   Data/x64/lkc_renderblocks_content_navigator.dll
-  Data/x64/lkc_renderblocks_controller.dll
-  Data/x64/lkc_renderblocks_render.dat
+  Data/x64/lkc_render_controller.dll
+  Data/x64/lkc_render1.dat
+  Data/x64/lkc_render2.dat
+  Data/x64/lkc_render3.dat
   Data/x86/lkc_renderblocks_content_navigator.dll
-  Data/x86/lkc_renderblocks_controller.dll
-  Data/x86/lkc_renderblocks_render.dat
-  Data/x64/lkc_cnav_controller.dll
-  Data/x86/lkc_cnav_controller.dll
-  Data/x64/lkc_cnav_render.dat
-  Data/x86/lkc_cnav_render.dat
+  Data/x86/lkc_render_controller.dll
+  Data/x86/lkc_render1.dat
+  Data/x86/lkc_render2.dat
+  Data/x86/lkc_render3.dat
   Data/save_table.dat
   [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
  About:
@@ -30,6 +30,10 @@
 
 --[[
  * Changelog:
+    * v1.04 (2022-06-18)
+        + Fixed multi-unselection bug
+        + Refactored license management system
+        + Improved license key parsing
     * v1.03 (2022-05-23)
         + Improved anti-crash security for multi-selection
         + Added support for coloring tracks using third-party scripts like ReaNoir or Colour Swatch
