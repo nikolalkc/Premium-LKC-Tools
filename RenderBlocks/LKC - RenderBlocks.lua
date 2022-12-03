@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.4.4
+ Version: 1.4.5
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -82,6 +82,8 @@
 
 --[[
  * Changelog:
+  * v1.4.5 (2022-12-03)
+    + Fixed bug with $rblock wildcard and render block metatags giving wrong filename
   * v1.4.4 (2022-08-07)
     + Fixed issue of incorrect coloring of items to white after rendering
     + Fixed issue of automation items being deleted when unpacking blocks 
