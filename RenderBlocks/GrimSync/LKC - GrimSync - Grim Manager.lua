@@ -2,6 +2,9 @@
 	Noindex: true
 ]]
 
+dofile(reaper.GetResourcePath() .. '/Scripts/ReaTeam Extensions/API/imgui.lua')
+  ('0.7.2')
+
 local sws = reaper.APIExists("CF_GetClipboardBig")
 if not sws then
     reaper.ShowMessageBox("Please install SWS Extension version 2.9.7 or higher from:\nhttps://sws-extension.org/", "NO SWS FOUND", 0)
