@@ -45,7 +45,7 @@ function CreateNewRegion()
 	if container_prefix == "" then
 		local retval, result
 		if mega_ignore == nil and path_only == nil then --so it doesn't edit track name when P and I actions are called
-			retval, result = reaper.GetUserInputs("Inser new region", 1, "Region name:,extrawidth=300", "")
+			retval, result = reaper.GetUserInputs("Insert new region", 1, "Region name:,extrawidth=300", "")
 		else
 			result = ""
 		end

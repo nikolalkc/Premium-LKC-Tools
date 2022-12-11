@@ -13,7 +13,7 @@ end
 
 local imgui = reaper.APIExists( "ImGui_CreateContext")
 if not imgui then
-    reaper.ShowMessageBox("Please install 'ReaImgui: ReaScript binding for Dear ImGui' (v0.7+) package from ReaPack. After that restart REAPER and try again.", "No ReaImgui found", 0)
+    reaper.ShowMessageBox("Please install 'ReaImgui: ReaScript binding for Dear ImGui' (v0.7.2 or higher) package from ReaPack. After that restart REAPER and try again.", "No ReaImgui found", 0)
     reaper.ReaPack_BrowsePackages( "ReaImGui: ReaScript binding for Dear ImGui")
     return
 end

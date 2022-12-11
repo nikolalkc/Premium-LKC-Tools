@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.01
+ Version: 1.02
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -127,6 +127,9 @@
 
 --[[
  * Changelog:
+   * v1.02 (2022-12-11)
+    - Fixed broken exporting to and from network locations
+    - Fixed typos
     * v1.01 (2022-12-03)
     - Added ReaImgui 0.7.2 compatibility shims to fix 0.8+ breaks
    * v1.0 (2022-08-28)
