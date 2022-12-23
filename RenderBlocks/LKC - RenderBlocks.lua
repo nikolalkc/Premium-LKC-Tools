@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.4.6
+ Version: 1.4.7
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -82,6 +82,8 @@
 
 --[[
  * Changelog:
+  * v1.4.7 (2022-12-23)
+    + Removed accidentally left debug messages
   * v1.4.6 (2022-12-22)
     + Fixed bug that caused unlinked time selection and loop markers to render silence
   * v1.4.5 (2022-12-03)
