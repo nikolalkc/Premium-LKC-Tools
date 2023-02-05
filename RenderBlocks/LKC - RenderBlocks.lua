@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.4.7
+ Version: 1.4.8
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -82,6 +82,8 @@
 
 --[[
  * Changelog:
+  * v1.4.8 (2023-02-05)
+    + Fixed experimental indexing without zero prefix for naming and autonaming
   * v1.4.7 (2022-12-23)
     + Removed accidentally left debug messages
   * v1.4.6 (2022-12-22)
