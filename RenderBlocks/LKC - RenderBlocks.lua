@@ -15,6 +15,7 @@
   [Main] LKC - RenderBlocks - Enter metatag.lua
   [Main] LKC - RenderBlocks - Restore colors.lua
   [Main] LKC - RenderBlocks - Pack clusters.lua
+  [Main] LKC - RenderBlocks - Pack clusters (vertical only).lua
   [Main] LKC - RenderBlocks - Default item colors.lua
   [Main] LKC - RenderBlocks - Toggle labels and item icons.lua
   [Main] LKC - RenderBlocks - Pack clusters and Enter name.lua
