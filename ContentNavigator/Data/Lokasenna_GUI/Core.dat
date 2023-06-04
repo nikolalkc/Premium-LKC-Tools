@@ -1425,6 +1425,15 @@ local function GUI_table ()
                     {fonts.sans, 20},	-- 2. Header
                     {fonts.sans, 16},	-- 3. Label
                     {fonts.sans, 16},	-- 4. Value
+                    {fonts.sans, 12},	-- 5. LKC Value (1)
+                    {fonts.sans, 16},	-- 6. LKC Value (2)
+                    {fonts.sans, 20},	-- 7. LKC Value (3)
+                    {fonts.sans, 24},	-- 8. LKC Value (4)
+                    {fonts.sans, 28},	-- 9. LKC Value (5)
+                    {fonts.sans, 32},	-- 10. LKC Value (6)
+                    {fonts.sans, 38},	-- 11. LKC Value (7)
+                    {fonts.sans, 48},	-- 12. LKC Value (8)
+                    {fonts.sans, 60},	-- 13. LKC Value (9)
         monospace = {fonts.mono, 14},
         version = 	{fonts.sans, 12, "i"},
         

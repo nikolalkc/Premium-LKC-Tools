@@ -3,10 +3,12 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.04
+ Version: 1.05
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
+  Data/Lokasenna_GUI/Class - Label.dat
   Data/Lokasenna_GUI/Class - Listbox2.dat
+  Data/Lokasenna_GUI/Class - Menubox.dat
   Data/Lokasenna_GUI/Class - Options.dat
   Data/Lokasenna_GUI/Class - Tabs.dat
   Data/Lokasenna_GUI/Class - Textbox.dat
@@ -30,6 +32,11 @@
 
 --[[
  * Changelog:
+    * v1.05 (2023-06-04)
+        + Font options
+        + Indentation options
+        + MCP options
+        + Quick hide button (^,v)
     * v1.04 (2022-06-18)
         + Fixed multi-unselection bug
         + Refactored license management system
