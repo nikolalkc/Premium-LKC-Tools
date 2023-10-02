@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.06beta
+ Version: 1.07beta
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -42,6 +42,8 @@
 
 --[[
  * Changelog:
+    * v1.07beta (2023-10-02)
+        + Fixed loading bug
     * v1.06beta (2023-10-02)
         + REAPER 7 and Lua 5.4 support
     * v1.05 (2023-06-04)
@@ -96,7 +98,6 @@
         + Package created
 ]]
 
-
 local sws = reaper.APIExists("CF_GetClipboardBig")
 if sws then
     --OS INFO
@@ -110,10 +111,13 @@ if sws then
     bin="x64"
     if platform == "Win32" or platform == "OSX32" then bin="x86" end
 
+
+    luac = "53"
+    if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
     local info = debug.getinfo(1,'S');
     script_path = info.source:match[[^@?(.*[\/])[^\/]-$]]
-    dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_content_navigator.dll]])
+    dofile(script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_renderblocks_content_navigator.dll]])
 else
     reaper.ShowMessageBox("Please install SWS Extension version 2.9.7 or higher from:\nhttps://sws-extension.org/", "NO SWS FOUND", 0)
 end
-
