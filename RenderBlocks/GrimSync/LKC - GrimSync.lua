@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.03
+ Version: 1.04beta
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -51,22 +51,38 @@
   bin/GrimSync.exe
   json_lua/json.lua
   json_lua/LICENSE
-  Data/x64/lkc_grimsync_designer.dll
-  Data/x64/lkc_grimsync_generate_data.dll
-  Data/x64/lkc_grimsync_shared_functions.dll
-  Data/x64/lkc_render_controller.dll
-  Data/x64/lkc_render1.dat
-  Data/x64/lkc_render2.dat
-  Data/x64/lkc_render3.dat
-  Data/x64/lkc_grimsync_update_links.dll
-  Data/x86/lkc_grimsync_designer.dll
-  Data/x86/lkc_grimsync_generate_data.dll
-  Data/x86/lkc_grimsync_shared_functions.dll
-  Data/x86/lkc_render_controller.dll
-  Data/x86/lkc_render1.dat
-  Data/x86/lkc_render2.dat
-  Data/x86/lkc_render3.dat
-  Data/x86/lkc_grimsync_update_links.dll
+  Data/53/x64/lkc_grimsync_designer.dll
+  Data/53/x64/lkc_grimsync_generate_data.dll
+  Data/53/x64/lkc_grimsync_shared_functions.dll
+  Data/53/x64/lkc_render_controller.dll
+  Data/53/x64/lkc_render1.dat
+  Data/53/x64/lkc_render2.dat
+  Data/53/x64/lkc_render3.dat
+  Data/53/x64/lkc_grimsync_update_links.dll
+  Data/53/x86/lkc_grimsync_designer.dll
+  Data/53/x86/lkc_grimsync_generate_data.dll
+  Data/53/x86/lkc_grimsync_shared_functions.dll
+  Data/53/x86/lkc_render_controller.dll
+  Data/53/x86/lkc_render1.dat
+  Data/53/x86/lkc_render2.dat
+  Data/53/x86/lkc_render3.dat
+  Data/53/x86/lkc_grimsync_update_links.dll
+  Data/54/x64/lkc_grimsync_designer.dll
+  Data/54/x64/lkc_grimsync_generate_data.dll
+  Data/54/x64/lkc_grimsync_shared_functions.dll
+  Data/54/x64/lkc_render_controller.dll
+  Data/54/x64/lkc_render1.dat
+  Data/54/x64/lkc_render2.dat
+  Data/54/x64/lkc_render3.dat
+  Data/54/x64/lkc_grimsync_update_links.dll
+  Data/54/x86/lkc_grimsync_designer.dll
+  Data/54/x86/lkc_grimsync_generate_data.dll
+  Data/54/x86/lkc_grimsync_shared_functions.dll
+  Data/54/x86/lkc_render_controller.dll
+  Data/54/x86/lkc_render1.dat
+  Data/54/x86/lkc_render2.dat
+  Data/54/x86/lkc_render3.dat
+  Data/54/x86/lkc_grimsync_update_links.dll
   Data/save_table.dat
   [data] graphics/toolbar_icons/lkc_grimsync_action_basic_name.png > toolbar_icons/lkc_grimsync_action_basic_name.png
   [data] graphics/toolbar_icons/lkc_grimsync_action_delete_clear.png > toolbar_icons/lkc_grimsync_action_delete_clear.png
@@ -127,6 +143,8 @@
 
 --[[
  * Changelog:
+   * v1.04beta (2023-10-02)
+    - REAPER 7 and Lua 5.4 support
    * v1.03 (2023-07-31)
     - Fixed Wwise Automation Mode source control issue (WG-63863) on Wwise 2022.1.4 for events as well
     - Fixed (Path Only) braces being part of Smart Originals folder name

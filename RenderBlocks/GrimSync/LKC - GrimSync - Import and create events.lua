@@ -13,10 +13,14 @@ reaper.Undo_BeginBlock()
 local info = debug.getinfo(1, 'S');
 script_path = info.source:match [[^@?(.*[\/])[^\/]-$]]
 
+luac = "53"
+if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
+
 json = loadfile(script_path .. "json_lua" .. separator .. "json.lua")() -- LOAD LIBRARY FOR PARSING AND CREATEING JSON
 
 -- LOAD/SAVE SETTINGS MODULE
-loadfile(script_path .. [[Data]] .. separator .. bin .. separator ..
+loadfile(script_path .. [[Data]] .. separator .. luac .. separator .. bin .. separator ..
              "lkc_grimsync_shared_functions.dll")() -- LOAD LIBRARY FOR LOADING AND SAVING SETTINGS
 CUR_SETTINGS, READ_FROM = WSHARED.GetAllSettings()
 

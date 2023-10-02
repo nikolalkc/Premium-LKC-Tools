@@ -17,9 +17,13 @@ if platform == "Win32" or platform == "OSX32" then bin = "x86" end
 local info = debug.getinfo(1, 'S');
 script_path = info.source:match [[^@?(.*[\/])[^\/]-$]]
 
+luac = "53"
+if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
+
 reaper.Undo_BeginBlock()
 -- LOAD/SAVE SETTINGS MODULE
-loadfile(script_path .. [[Data]] .. separator .. bin .. separator ..
+loadfile(script_path .. [[Data]] .. separator .. luac .. separator .. bin .. separator ..
              "lkc_grimsync_shared_functions.dll")() -- LOAD LIBRARY FOR LOADING AND SAVING SETTINGS
 
 local CUR_SETTINGS, READ_FROM = WSHARED.GetAllSettings()

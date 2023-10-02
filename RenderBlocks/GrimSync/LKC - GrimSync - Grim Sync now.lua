@@ -18,6 +18,10 @@ local info = debug.getinfo(1,'S');
 script_path = info.source:match[[^@?(.*[\/])[^\/]-$]]
 
 
+luac = "53"
+if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
+
 function Msg(param)
     reaper.ShowConsoleMsg(tostring(param).."\n")
 end
@@ -35,7 +39,7 @@ function Main()
     UpdateInfo("Generating JSON file...")
 
     script_path = info.source:match[[^@?(.*[\/])[^\/]-$]]
-    dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_grimsync_generate_data.dll]])
+    dofile(script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_grimsync_generate_data.dll]])
     UpdateInfo("DONE\n\n")
     
     
