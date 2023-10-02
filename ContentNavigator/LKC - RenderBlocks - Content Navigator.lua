@@ -13,17 +13,28 @@
   Data/Lokasenna_GUI/Class - Tabs.dat
   Data/Lokasenna_GUI/Class - Textbox.dat
   Data/Lokasenna_GUI/Core.dat
-  Data/x64/lkc_renderblocks_content_navigator.dll
-  Data/x64/lkc_render_controller.dll
-  Data/x64/lkc_render1.dat
-  Data/x64/lkc_render2.dat
-  Data/x64/lkc_render3.dat
-  Data/x86/lkc_renderblocks_content_navigator.dll
-  Data/x86/lkc_render_controller.dll
-  Data/x86/lkc_render1.dat
-  Data/x86/lkc_render2.dat
-  Data/x86/lkc_render3.dat
   Data/save_table.dat
+  Data/53/x64/lkc_renderblocks_content_navigator.dll
+  Data/53/x64/lkc_render_controller.dll
+  Data/53/x64/lkc_render1.dat
+  Data/53/x64/lkc_render2.dat
+  Data/53/x64/lkc_render3.dat
+  Data/53/x86/lkc_renderblocks_content_navigator.dll
+  Data/53/x86/lkc_render_controller.dll
+  Data/53/x86/lkc_render1.dat
+  Data/53/x86/lkc_render2.dat
+  Data/53/x86/lkc_render3.dat
+  Data/54/x64/lkc_renderblocks_content_navigator.dll
+  Data/54/x64/lkc_render_controller.dll
+  Data/54/x64/lkc_render1.dat
+  Data/54/x64/lkc_render2.dat
+  Data/54/x64/lkc_render3.dat
+  Data/54/x86/lkc_renderblocks_content_navigator.dll
+  Data/54/x86/lkc_render_controller.dll
+  Data/54/x86/lkc_render1.dat
+  Data/54/x86/lkc_render2.dat
+  Data/54/x86/lkc_render3.dat
+  [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
   [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
  About:
   # LKC CONTENT NAVIGATOR
