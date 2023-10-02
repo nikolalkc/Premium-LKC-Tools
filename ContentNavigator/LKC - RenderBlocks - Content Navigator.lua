@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.05
+ Version: 1.06beta
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -32,6 +32,8 @@
 
 --[[
  * Changelog:
+    * v1.06beta (2023-10-02)
+        + REAPER 7 and Lua 5.4 support
     * v1.05 (2023-06-04)
         + Font options
         + Indentation options
