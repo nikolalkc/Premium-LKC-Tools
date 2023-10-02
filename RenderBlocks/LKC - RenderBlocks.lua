@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.5.1
+ Version: 1.5.2beta
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -83,6 +83,8 @@
 
 --[[
  * Changelog:
+ * v1.5.2beta (2023-10-02)
+    + REAPER 7 and Lua 5.4 support
  * v1.5.1 (2023-07-21)
     + Fixed 'Pack clusters (vertical only)' selection bug to allow for easier naming after packing
  * v1.5.0 (2023-03-21)

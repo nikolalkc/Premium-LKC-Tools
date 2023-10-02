@@ -33,8 +33,11 @@ if sws then
     create_regions = 0
     VERTICAL_ONLY = 1
 
-    wrap_unwrap_dll = script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_pack_unpack.dll]]
-    dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_pack_clusters.dll]])
+    luac = "53"
+    if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
+    wrap_unwrap_dll = script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_renderblocks_pack_unpack.dll]]
+    dofile(script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_renderblocks_pack_clusters.dll]])
 else
     reaper.ShowMessageBox("Please install SWS Extension version 2.9.7 or higher from:\nhttps://sws-extension.org/", "NO SWS FOUND", 0)
 end

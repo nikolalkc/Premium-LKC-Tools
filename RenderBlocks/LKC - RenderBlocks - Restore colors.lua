@@ -33,13 +33,15 @@ if sws then
     bin="x64"
     if platform == "Win32" or platform == "OSX32" then bin="x86" end
 
+    luac = "53"
+    if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
     ----------------------
 
     reaper.PreventUIRefresh( 1 )
     reaper.Undo_BeginBlock()
 
     --RUN THE SCRIPT
-    dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_restore_colors.dll]])
+    dofile(script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_renderblocks_restore_colors.dll]])
 
     reaper.PreventUIRefresh(-1)
     reaper.Undo_EndBlock("LKC - RenderBlocks - Restore colors", -1)

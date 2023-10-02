@@ -15,9 +15,12 @@ if sws then
     bin="x64"
     if platform == "Win32" or platform == "OSX32" then bin="x86" end
 
+    luac = "53"
+    if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
+
     local info = debug.getinfo(1,'S');
     script_path = info.source:match[[^@?(.*[\/])[^\/]-$]]
-    dofile(script_path..[[Data]]..separator..bin..separator..[[lkc_renderblocks_destroy.dll]])
+    dofile(script_path..[[Data]]..separator..luac..separator..bin..separator..[[lkc_renderblocks_destroy.dll]])
 else
     reaper.ShowMessageBox("Please install SWS Extension version 2.9.7 or higher from:\nhttps://sws-extension.org/", "NO SWS FOUND", 0)
 end
