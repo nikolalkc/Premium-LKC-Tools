@@ -35,7 +35,6 @@
   Data/54/x86/lkc_render2.dat
   Data/54/x86/lkc_render3.dat
   [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
-  [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
  About:
   # LKC CONTENT NAVIGATOR
   
