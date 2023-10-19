@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.07beta
+ Version: 1.07
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -42,6 +42,8 @@
 
 --[[
  * Changelog:
+    * v1.07 (2023-10-19)
+        + REAPER 7 support
     * v1.07beta (2023-10-02)
         + Fixed loading bug
     * v1.06beta (2023-10-02)
