@@ -29,8 +29,15 @@ function Msg(param) reaper.ShowConsoleMsg(tostring(param) .. "\n") end
 
 -- reaper.ClearConsole()
 
+
+local network_path = ""
+if CUR_SETTINGS.waapi_connection_link ~= "" then
+    network_path = WSHARED.GetAbsoluteRenderPath()
+end
+
+
 -- RUN GrimSync ALL
-command = "\"" .. script_path .. "bin\\GrimSync.exe\" --all " .. CUR_SETTINGS.waapi_connection_link
+command = "\"" .. script_path .. "bin\\GrimSync.exe\" --all " .. CUR_SETTINGS.waapi_connection_link .. " " .. network_path
 os.execute(command)
 
 -- Msg("LINK BLOCKS:" .. tostring(CUR_SETTINGS.link_blocks))

@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.04
+ Version: 1.05
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -143,6 +143,9 @@
 
 --[[
  * Changelog:
+   * v1.05 (2023-12-26)
+    - Added support for creation of events over network
+    - Improved help notes
    * v1.04 (2023-10-19)
     - REAPER 7 support
    * v1.04beta (2023-10-02)
