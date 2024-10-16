@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.5.2
+ Version: 1.5.3
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -111,6 +111,8 @@
 
 --[[
  * Changelog:
+ * v1.5.3 (2024-10-16)
+    + Added option in RenderBlocks Settings (Page B) to include take markers in wave files (requires proper render settings) 
  * v1.5.2 (2023-10-19)
     + REAPER 7 support
  * v1.5.2beta (2023-10-02)
