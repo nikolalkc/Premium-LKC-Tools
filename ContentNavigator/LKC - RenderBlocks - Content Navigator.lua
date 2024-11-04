@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.07
+ Version: 1.08
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -42,6 +42,10 @@
 
 --[[
  * Changelog:
+    * v1.08 (2024-11-04)
+        + Changed licensing model - LKC Content Navigator is now FREE for  both personal and commercial use
+        + Fixed (ALL) button affecting MPC when Affect MPC setting is disabled
+        + Added Help button
     * v1.07 (2023-10-19)
         + REAPER 7 support
     * v1.07beta (2023-10-02)
