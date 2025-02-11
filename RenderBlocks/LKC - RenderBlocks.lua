@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.5.3
+ Version: 1.5.4beta
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -111,6 +111,8 @@
 
 --[[
  * Changelog:
+ * v1.5.4beta (2025-02-25)
+    + Fixed a bug with autonaming when using dash (-) as a separator
  * v1.5.3 (2024-10-16)
     + Added option in RenderBlocks Settings (Page B) to include take markers in wave files (requires proper render settings) 
  * v1.5.2 (2023-10-19)
