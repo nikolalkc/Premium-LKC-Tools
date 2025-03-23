@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.05
+ Version: 1.06
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -143,6 +143,9 @@
 
 --[[
  * Changelog:
+   * v1.06 (2025-03-23)
+    - Fixed bug with using metatags to define custom buses and other string based parameters
+    - Fixed bug with wwise_.png project loading error
    * v1.05 (2023-12-26)
     - Added support for creation of events over network
     - Improved help notes
