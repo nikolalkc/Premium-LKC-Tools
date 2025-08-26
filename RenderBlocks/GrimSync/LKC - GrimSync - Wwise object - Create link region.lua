@@ -68,10 +68,10 @@ end
 -- EV_COLOR = reaper.ImGui_ColorConvertNative(EV_COLOR)
 
 -- RUN GrimSync GET
-command = "\"" .. script_path .. "bin\\GrimSync.exe\" --get " .. CUR_SETTINGS.waapi_connection_link
+command = "\"" .. script_path .. "bin/GrimSync.exe\" --get " .. CUR_SETTINGS.waapi_connection_link
 os.execute(command)
 
-log = io.open(script_path .. "bin\\GrimSync.log", "r")
+log = io.open(script_path .. "bin/GrimSync.log", "r")
 output = log:read("*all")
 output = string.match(output, ">>>(.*)<<<")
 log:close()
