@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.07rc1
+ Version: 1.08
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -49,6 +49,7 @@
   LKC - GrimSync - Generate Wwise Data.lua
   LKC - GrimSync - Import and create events.lua
   bin/GrimSync.exe
+  bin/GrimSync.py
   json_lua/json.lua
   json_lua/LICENSE
   Data/53/x64/lkc_grimsync_designer.dll
@@ -143,6 +144,11 @@
 
 --[[
  * Changelog:
+   * v1.08 (2025-11-26)
+    - Added support for OSX and Linux
+    - Added support for live media transfer in Wwise 2024.1 and later
+    - Fixed UI crash with ReaImgui 0.10+
+    - Fixed slashes to be crossplatform compatible
    * v1.07rc1 (2025-08-31)
     - Added support for live media transfer in Wwise 2024.1 and later
    * v1.07beta (2025-08-25)

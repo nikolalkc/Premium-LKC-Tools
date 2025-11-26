@@ -42,7 +42,11 @@ function Main()
                         -- Msg('item:'..tostring(item))
                         reaper.SetMediaItemSelected(item, true)
 
-                        prog = prog .. [[del /q "]] .. audio_file .. [[" & ]]
+                        if platform == "Win32" or platform == "Win64" then
+                          prog = prog .. [[del /q "]] .. audio_file .. [[" & ]]
+                        else
+                            prog = prog .. [[rm -f "]] .. audio_file .. [[";]]
+                        end
                     end
                 end
 
