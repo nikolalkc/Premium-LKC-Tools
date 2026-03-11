@@ -119,6 +119,12 @@ function LinkWwiseObjectToTrack(track)
             region_name = "{CONTAINERS=" .. name .. "}:" .. path .. "," .. guid .. "," ..
                               "[ORIGINALS=" .. originals .. "]" .. "," .. "[EVENTS_SUBPATH=" ..
                               events_subpath .. "],[TYPE=" .. ttype .. "]"
+        elseif string.match(path, "^\\Containers") ~= nil then
+            -- Msg("NEW WWISE 2025")
+            color = AM_COLOR
+            region_name = "{CONTAINERS=" .. name .. "}:" .. path .. "," .. guid .. "," ..
+                              "[ORIGINALS=" .. originals .. "]" .. "," .. "[EVENTS_SUBPATH=" ..
+                              events_subpath .. "],[TYPE=" .. ttype .. "]"
         else
             SET = false
             reaper.ShowMessageBox(
