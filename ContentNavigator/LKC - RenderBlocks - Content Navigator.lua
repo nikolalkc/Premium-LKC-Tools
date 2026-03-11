@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.11
+ Version: 1.12
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -42,6 +42,8 @@
 
 --[[
  * Changelog:
+    * v1.12 (2026-03-11)
+        + Linux build fixes
     * v1.11 (2026-02-14)
         + Fixed issues with hiding natively pinned tracks
         + Pinned track list updates on each view change
