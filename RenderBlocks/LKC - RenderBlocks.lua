@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.5.5beta
+ Version: 1.5.6
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -111,6 +111,8 @@
 
 --[[
  * Changelog:
+ * v1.5.6 (2026-03-11)
+    + Linux build fixes
  * v1.5.5beta (2025-02-25)
     + Disabled autonaming debug
  * v1.5.4beta (2025-02-25)
