@@ -47,7 +47,8 @@ ALLOWED_HIER_TYPES = {
     Folder = true,
     MusicSwitchContainer = true,
     MusicSegment = true,
-    MusicPlaylistContainer = true
+    MusicPlaylistContainer = true,
+    PropertyContainer= true,
 }
 
 local AM_COLOR = reaper.ColorToNative(64, 181, 206) | 0x1000000
