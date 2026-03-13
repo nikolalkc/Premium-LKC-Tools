@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.30
+ Version: 1.33
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -121,7 +121,8 @@
   extra/lkc_grimsync_structure_manager.lua
   extra/lkc_grimsync_metaobject_functions.lua
  Changelog:
-  + Test latest distribution system (no user facing changes)
+  + Fixed crazy version numeber 1.3233
+
  About:
   # Grim Sync
 
@@ -149,6 +150,17 @@
 
 --[[
  Full Changelog History:
+ v1.33 (2026-06-13)
+    + Fixed crazy version numeber 1.3233
+ v1.32 (2026-03-13)
+    + Final test of publishing script (no user facing changes)
+    + Switching from beta to live in automatic way
+ v1.31beta3 (2026-03-13)
+    + Fetch vs push vs commit terminal test
+ v1.31beta2 (2026-03-13)
+    + Another push of beta version from terminal
+ v1.31beta (2026-03-13)
+    + Test push from terminal
  v1.30 (2026-03-13)
     + Test latest distribution system (no user facing changes)
  v1.29 (2026-03-13)
