@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.18
+ Version: 1.19
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -91,8 +91,9 @@
   Data/ini_file_reader.dat
   Data/save_table.dat
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
+  [data] Data/LKCTools-GlobalToolbar.ReaperMenu > LKCTools-GlobalToolbar.ReaperMenu
  Changelog:
-  + New publish script testing
+  + Added Global Toolbar for LKC Tools in REAPER's Data folder
  About:
   # LKC RENDER BLOCKS
 
@@ -113,6 +114,8 @@
 
 --[[
  Full Changelog History:
+ v1.19 (2026-03-13)
+    + Added Global Toolbar for LKC Tools in REAPER's Data folder
  v1.18 (2026-03-13)
     + New publish script testing
  v1.17 (2026-03-11)
