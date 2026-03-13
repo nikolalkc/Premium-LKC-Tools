@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.19
+ Version: 1.20
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -93,7 +93,7 @@
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
   [data] Data/LKCTools-GlobalToolbar.ReaperMenu > LKCTools-GlobalToolbar.ReaperMenu
  Changelog:
-  + Added Global Toolbar for LKC Tools in REAPER's Data folder
+  + Fix Autonaming for older REPAER versions before region lanes existed
  About:
   # LKC RENDER BLOCKS
 
@@ -114,6 +114,8 @@
 
 --[[
  Full Changelog History:
+ v1.20 (2026-03-13)
+    + Fix Autonaming for older REPAER versions before region lanes existed
  v1.19 (2026-03-13)
     + Added Global Toolbar for LKC Tools in REAPER's Data folder
  v1.18 (2026-03-13)
