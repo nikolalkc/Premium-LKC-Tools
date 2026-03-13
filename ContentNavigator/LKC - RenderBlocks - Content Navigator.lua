@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.12
+ Version: 1.15
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -42,24 +42,22 @@
 
 --[[
  * Changelog:
-    * v1.12 (2026-03-11)
+    * v1.15 (2026-03-13)
+        + Version numbering unified with development branch
+    * v1.11 (2026-03-11)
         + Linux build fixes
-    * v1.11 (2026-02-14)
+    * v1.10 (2026-02-14)
         + Fixed issues with hiding natively pinned tracks
         + Pinned track list updates on each view change
-    * v1.10 (2025-10-07)
+    * v1.09 (2025-10-07)
         + Fixed an issue with rendering in REAPER 7.46+
-    * v1.09 (2025-01-14)
+    * v1.08 (2025-01-14)
         + Fixed an issue with Minimal View being always active in MCP
-    * v1.08 (2024-11-04)
+    * v1.07 (2024-10-17)
         + Changed licensing model - LKC Content Navigator is now FREE for  both personal and commercial use
         + Fixed (ALL) button affecting MPC when Affect MPC setting is disabled
         + Added Help button
-    * v1.07 (2023-10-19)
-        + REAPER 7 support
-    * v1.07beta (2023-10-02)
-        + Fixed loading bug
-    * v1.06beta (2023-10-02)
+    * v1.06 (2023-09-26)
         + REAPER 7 and Lua 5.4 support
     * v1.05 (2023-06-04)
         + Font options
@@ -113,6 +111,7 @@
         + Package created
 ]]
 
+
 local sws = reaper.APIExists("CF_GetClipboardBig")
 if sws then
     --OS INFO
@@ -136,3 +135,4 @@ if sws then
 else
     reaper.ShowMessageBox("Please install SWS Extension version 2.9.7 or higher from:\nhttps://sws-extension.org/", "NO SWS FOUND", 0)
 end
+
