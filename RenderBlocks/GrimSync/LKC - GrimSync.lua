@@ -147,6 +147,7 @@
  * Changelog:
    * v1.26 (2026-03-13)
     - Version numbering unified with development branch
+    - Support for region lanes
    * v1.25 (2026-03-13)
     - Support for region lanes
    * v1.24 (2026-03-12)
