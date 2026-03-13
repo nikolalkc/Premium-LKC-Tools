@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.21beta
+ Version: 1.21beta2
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -93,7 +93,7 @@
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
   [data] Data/LKCTools-GlobalToolbar.ReaperMenu > LKCTools-GlobalToolbar.ReaperMenu
  Changelog:
-  + Added option to treat slashes (/) in hiearachy as subpath segments for final name
+  + Fixed issue with last segment being treated as folder even when there is no slash (/) within string
  About:
   # LKC RENDER BLOCKS
 
@@ -114,6 +114,8 @@
 
 --[[
  Full Changelog History:
+ v1.21beta2 (2026-03-13)
+    + Fixed issue with last segment being treated as folder even when there is no slash (/) within string
  v1.21beta (2026-03-13)
     + Added option to treat slashes (/) in hiearachy as subpath segments for final name
  v1.20 (2026-03-13)
