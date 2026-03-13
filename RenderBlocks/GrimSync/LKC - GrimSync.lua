@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.28
+ Version: 1.29
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -114,14 +114,14 @@
   [data] graphics/track_icons/wwise_switch_container.png > track_icons/wwise_switch_container.png
   [data] graphics/track_icons/wwise_virtual_folder.png > track_icons/wwise_virtual_folder.png
   [data] graphics/track_icons/wwise_work_unit.png > track_icons/wwise_work_unit.png
-  [data] Data/LKCTools-GrimSync-RegionsToolbar.ReaperMenu
-  [data] Data/LKCTools-GrimSync-TracksToolbar.ReaperMenu
+  [data] Data/LKCTools-GrimSync-RegionsToolbar.ReaperMenu > LKCTools-GrimSync-RegionsToolbar.ReaperMenu
+  [data] Data/LKCTools-GrimSync-TracksToolbar.ReaperMenu > LKCTools-GrimSync-TracksToolbar.ReaperMenu
   EULA.txt
   CREDITS.txt
   extra/lkc_grimsync_structure_manager.lua
   extra/lkc_grimsync_metaobject_functions.lua
  Changelog:
-  + Added official toolbar menus for Regions and Tracks (look in REAPER Data folder)
+  + Fix toolbars location from Data/Data to just Data
  About:
   # Grim Sync
 
@@ -149,6 +149,8 @@
 
 --[[
  Full Changelog History:
+ v1.29 (2026-03-13)
+    + Fix toolbars location from Data/Data to just Data
  v1.28 (2026-03-13)
     + Added official toolbar menus for Regions and Tracks (look in REAPER Data folder)
  v1.27 (2026-03-13)
