@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.29
+ Version: 1.30
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -121,7 +121,7 @@
   extra/lkc_grimsync_structure_manager.lua
   extra/lkc_grimsync_metaobject_functions.lua
  Changelog:
-  + Fix toolbars location from Data/Data to just Data
+  + Test latest distribution system (no user facing changes)
  About:
   # Grim Sync
 
@@ -149,6 +149,8 @@
 
 --[[
  Full Changelog History:
+ v1.30 (2026-03-13)
+    + Test latest distribution system (no user facing changes)
  v1.29 (2026-03-13)
     + Fix toolbars location from Data/Data to just Data
  v1.28 (2026-03-13)
