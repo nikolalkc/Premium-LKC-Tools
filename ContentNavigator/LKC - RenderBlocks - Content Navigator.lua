@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6
  Extensions: SWS
- Version: 1.16
+ Version: 1.17
  Provides:
   Data/Lokasenna_GUI/Class - Button.dat
   Data/Lokasenna_GUI/Class - Label.dat
@@ -36,8 +36,7 @@
   Data/54/x86/lkc_render3.dat
   [data] LKC - Content Navigator.png > toolbar_icons/LKC - Content Navigator.png
  Changelog:
-  + New publish script testing
-  + Reformated metadata
+  + First version after beta that is properly indexed.
  About:
   # LKC CONTENT NAVIGATOR
 
@@ -46,6 +45,10 @@
 
 --[[
  Full Changelog History:
+ v1.17 (2026-03-13)
+    + First version after beta that is properly indexed.
+ v1.17beta (2026-03-13)
+    + Beta to test auto incrementing.
  v1.16 (2026-03-13)
     + New publish script testing
     + Reformated metadata
