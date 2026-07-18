@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 5+
  Extensions: SWS
- Version: 1.21beta2
+ Version: 1.22beta2
  Provides:
   [Main] LKC - RenderBlocks - Pack or Unpack.lua
   [Main] LKC - RenderBlocks - Destroy.lua
@@ -93,7 +93,7 @@
   [data] LKC - RenderBlocks.png > toolbar_icons/LKC - RenderBlocks.png
   [data] Data/LKCTools-GlobalToolbar.ReaperMenu > LKCTools-GlobalToolbar.ReaperMenu
  Changelog:
-  + Fixed issue with last segment being treated as folder even when there is no slash (/) within string
+  + Add support for @OUTPUT in track names. Any track containing that wildcard will be used as output track instead of Master Mix. Suffixes are supported with "@OUTPUT AlternateOutput" which will result in my_wav_name_AlternateOutput.wav
  About:
   # LKC RENDER BLOCKS
 
@@ -114,6 +114,8 @@
 
 --[[
  Full Changelog History:
+ v1.22beta (2026-07-18)
+    + Add support for @OUTPUT in track names. Any track containing that wildcard will be used as output track instead of Master Mix. Suffixes are supported with "@OUTPUT AlternateOutput" which will result in my_wav_name_AlternateOutput.wav
  v1.21beta2 (2026-03-13)
     + Fixed issue with last segment being treated as folder even when there is no slash (/) within string
  v1.21beta (2026-03-13)
