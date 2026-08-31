@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS, ReaImGui
- Version: 2.0.0beta1
+ Version: 2.0.0beta21
  Provides:
   [Main] LKC - Variator 2 - Mutate.lua
   [Main] LKC - Variator 2 - Decontaminate.lua
@@ -47,7 +47,7 @@
   Data/54/x86/lkc_variator_gate.dll
   Data/54/x86/lkc_variator_keys.dat
  Changelog:
-  + First closed beta version of Variator 2
+  + Cleanup
  About:
   # LKC Variator 2
 
@@ -57,13 +57,11 @@
 
   CLOSED BETA -- requires a beta key, and expires November 2026.
 ]]
-
---OS INFO
 platform = reaper.GetOS()
 if platform == "OSX64" or platform == "OSX32" or platform == "OSX" or platform == "Other" or platform == "macOS-arm64" then
     separator = [[/]]
 else
-    separator = [[\]]     --win
+    separator = [[\]]
 end
 
 local info = debug.getinfo(1,'S');
@@ -75,9 +73,6 @@ if platform == "Win32" or platform == "OSX32" then bin = "x86" end
 luac = "53"
 if string.sub(reaper.GetAppVersion(),1,1) == "7" then luac = "54" end
 
--- Release builds ship Lua bytecode under Data/<luac>/<bin>/; a dev tree has
--- plain source under _source/. Prefer the binary, fall back to source, so an
--- unbuilt working tree behaves exactly like a release one.
 function LKC_VariatorModulePath(name)
     local dll = script_path .. "Data" .. separator .. luac .. separator .. bin ..
                 separator .. name .. ".dll"
@@ -86,10 +81,6 @@ function LKC_VariatorModulePath(name)
     return script_path .. "_source" .. separator .. name .. ".lua"
 end
 
--- Closed-beta gate. An EXPIRED build stops here -- there is nothing the user can
--- do about it, so we do not open a window. A missing/invalid key does NOT stop
--- here: the GUI opens in a locked state offering key entry (see GATE_STATE in
--- variator_gui_imgui.lua), which is the only place a key can be entered.
 GATE = loadfile(LKC_VariatorModulePath("lkc_variator_gate"))()
 GATE.Init(script_path .. "Data" .. separator .. luac .. separator .. bin .. separator,
           script_path, script_path .. "Data" .. separator .. "save_table.dat",
