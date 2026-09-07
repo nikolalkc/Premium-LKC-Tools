@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS, ReaImGui
- Version: 2.0.0beta21
+ Version: 2.0.0beta22
  Provides:
   [Main] LKC - Variator 2 - Mutate.lua
   [Main] LKC - Variator 2 - Decontaminate.lua
@@ -47,7 +47,7 @@
   Data/54/x86/lkc_variator_gate.dll
   Data/54/x86/lkc_variator_keys.dat
  Changelog:
-  + Cleanup
+  + Check for ReaImgui installation and promt user on fail
  About:
   # LKC Variator 2
 
@@ -79,6 +79,48 @@ function LKC_VariatorModulePath(name)
     local f = io.open(dll, "rb")
     if f then f:close() return dll end
     return script_path .. "_source" .. separator .. name .. ".lua"
+end
+
+-- ReaImGui is a hard requirement for the GUI (the headless Mutate/Decontaminate
+-- /formula actions run fine without it, so this check lives here and not in the
+-- shared modules). Two separate failure modes, both of which used to surface as
+-- a raw Lua error rather than something a user can act on:
+--   1. Not installed at all -- reaper.ImGui_GetBuiltinPath() is nil, so
+--      variator_gui_imgui.lua died with "attempt to call a nil value".
+--   2. Installed but older than 0.9 -- GetBuiltinPath itself only exists from
+--      0.9 on, and `require 'imgui' '0.9'` raises a version error on a build
+--      that predates the shim. APIExists alone can't tell these apart, so the
+--      version is probed through the same require the GUI module uses.
+-- Checked before GATE so a missing extension is reported ahead of beta-key
+-- state -- it blocks the GUI regardless of whether the key is valid.
+local IMGUI_TITLE = "LKC VARIATOR 2 -- ReaImGui REQUIRED"
+if not reaper.APIExists("ImGui_GetBuiltinPath") then
+    reaper.ShowMessageBox(
+        "Variator 2's GUI needs the ReaImGui extension (v0.9 or newer).\n\n" ..
+        "Install it with ReaPack:\n" ..
+        "\tExtensions > ReaPack > Browse packages... > search \"ReaImGui\"\n\n" ..
+        "Then restart REAPER and run this script again.",
+        IMGUI_TITLE, 0)
+    return
+end
+
+-- Probe the version shim in a protected call: `require 'imgui' '<ver>'` errors
+-- out when the installed ReaImGui is older than the requested version, and that
+-- error is what would otherwise escape as an unreadable crash.
+-- Forward slash deliberately, matching variator_gui_imgui.lua and every other
+-- ReaImGui script in this repo: package.path accepts '/' on Windows too, and
+-- the GUI module re-assigns this exact string moments later.
+package.path = reaper.ImGui_GetBuiltinPath() .. '/?.lua'
+local imgui_ok, imgui_err = pcall(function() return require 'imgui' '0.9' end)
+if not imgui_ok then
+    reaper.ShowMessageBox(
+        "Variator 2's GUI needs ReaImGui v0.9 or newer, but loading it failed:\n\n" ..
+        "\t" .. tostring(imgui_err) .. "\n\n" ..
+        "Update ReaImGui with ReaPack:\n" ..
+        "\tExtensions > ReaPack > Synchronize packages\n\n" ..
+        "Then restart REAPER and run this script again.",
+        IMGUI_TITLE, 0)
+    return
 end
 
 GATE = loadfile(LKC_VariatorModulePath("lkc_variator_gate"))()
