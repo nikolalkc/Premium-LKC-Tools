@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS, ReaImGui
- Version: 2.0.0beta22
+ Version: 2.0.0beta23
  Provides:
   [Main] LKC - Variator 2 - Mutate.lua
   [Main] LKC - Variator 2 - Decontaminate.lua
@@ -47,7 +47,7 @@
   Data/54/x86/lkc_variator_gate.dll
   Data/54/x86/lkc_variator_keys.dat
  Changelog:
-  + Check for ReaImgui installation and promt user on fail
+  - Xfactor, pitch algo randomization
  About:
   # LKC Variator 2
 
