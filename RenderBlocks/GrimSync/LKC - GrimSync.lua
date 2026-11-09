@@ -4,7 +4,7 @@
  Author: LKC
  REAPER: 6.44+
  Extensions: ReaPack, SWS, ReaImGui, LKC Render Blocks
- Version: 1.35beta
+ Version: 1.35
  Provides:
   [Main] LKC - GrimSync - Grim Manager.lua
   [Main] LKC - GrimSync - Wwise object - Create link region.lua
@@ -121,7 +121,7 @@
   extra/lkc_grimsync_structure_manager.lua
   extra/lkc_grimsync_metaobject_functions.lua
  Changelog:
-  - Fix broken Smart Originals functionality introduced by PropertyContainer refactoring
+  + Publish v1.35 - fix broken smart originals
 
  About:
   # Grim Sync
@@ -150,6 +150,8 @@
 
 --[[
  Full Changelog History:
+ v1.35 (2026-11-09)
+    + Publish v1.35 - fix broken smart originals
  v1.35beta (2026-06-23)
     - Fix broken Smart Originals functionality introduced by PropertyContainer refactoring
  v1.34 (2026-05-13)
