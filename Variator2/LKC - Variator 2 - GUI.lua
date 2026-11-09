@@ -3,7 +3,7 @@
  Author: LKC
  REAPER: 6+
  Extensions: SWS, ReaImGui
- Version: 2.0.0beta23
+ Version: 2.0.0beta24
  Provides:
   [Main] LKC - Variator 2 - Mutate.lua
   [Main] LKC - Variator 2 - Decontaminate.lua
@@ -47,7 +47,7 @@
   Data/54/x86/lkc_variator_gate.dll
   Data/54/x86/lkc_variator_keys.dat
  Changelog:
-  - Xfactor, pitch algo randomization
+  - Beta extended until the end of 2026
  About:
   # LKC Variator 2
 
@@ -55,7 +55,7 @@
   pitch, position, length, fades, content and source files across a selection,
   or spawn any number of mutated variations from it.
 
-  CLOSED BETA -- requires a beta key, and expires November 2026.
+  CLOSED BETA -- requires a beta key, and expires at the end of 2026.
 ]]
 platform = reaper.GetOS()
 if platform == "OSX64" or platform == "OSX32" or platform == "OSX" or platform == "Other" or platform == "macOS-arm64" then
